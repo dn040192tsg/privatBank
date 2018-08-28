@@ -7,7 +7,6 @@ public class Bingo {
 
     public static void main(String[] args) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
         short n = (short) (Math.random() * 100);
         System.out.println("я загадал число от 1 до 100, попробуй его отгадать. Чтобы отгадать введи число на консоли. Чтобы завершить игру введи слово stop");
         int count = 0;
