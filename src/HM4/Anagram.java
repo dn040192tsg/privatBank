@@ -6,6 +6,7 @@ public class Anagram {
 
     public static void main(String[] args) {
         String s1 = "Я в мире — сирота.";
+        
         String s2 = "Я в Риме — Ариост.";
 
         System.out.println("результат сравнения анограм - " + anagramCheck (s1, s2));
