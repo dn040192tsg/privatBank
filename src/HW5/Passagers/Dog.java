@@ -62,7 +62,7 @@ public class Dog {
 
         setState(ObjectState.stoping);
 
-        return "Собака " + name + " вышлв из автобуса " + busName.getName();
+        return "Собака " + name + " вышла из автобуса " + busName.getName();
     }
 
     public String getName() {
