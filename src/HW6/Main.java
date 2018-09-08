@@ -50,5 +50,12 @@ public class Main {
 
         System.out.println(teslaCar.toString());
         System.out.println(teslaCar.hashCode());
+
+        System.out.println();
+
+        Car car [] = new Car [] {bmwCar, dewooCar, teslaCar };
+        for (Car x : car) {
+            x.go();
+        }
     }
 }
