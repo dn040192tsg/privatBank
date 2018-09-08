@@ -17,7 +17,7 @@ public class Main {
         TeslaCar teslaCar = (TeslaCar) constructorTeslaCar.newInstance(new Object[]{"Model S", "white", 220, 70000});
 
 
-        
+
         bmwCar.go();
         bmwCar.stop();
         bmwCar.charge();
