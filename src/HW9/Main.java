@@ -17,7 +17,7 @@ public class Main {
         for (Tea x : box.getBoxPlace()) {
             System.out.println(x.getName());
             System.out.println(x.getClass());
-            
+
         }
     }
 }
